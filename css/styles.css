@@ -1,0 +1,49 @@
+body{
+    background-color: #f5f5f5;
+    color:#212121;
+    font-family: roboto;
+}
+
+/* колір основного тексту #212121; */
+/* додатковий колір тексту #757575; */
+/* колір лого і посилань #2196F3; #000000; */
+/* білий #ffffff; */
+/* фон #f5f5f5; */
+/* додатковий колір фону #ffffff; */
+/* фон фільтра #F5F4FA; */
+
+/* кольори футера
+#ffffff;
+#ffffff; 60%
+#2196F3;
+#2F303A; */
+
+.logo{
+    color:#000000;
+}
+
+.list{
+    list-style: none;
+    text-decoration: none;
+    color: #212121;
+}
+
+/* Навігація по сайту */
+
+.link{
+    color: #212121;
+    text-decoration: none;
+    }   
+
+.site-nav .link:hover,
+.site-nav .link:focus,
+.site-nav .link:active
+    {
+        color: #2196F3;
+    }
+    
+.contact-nav:hover,
+.contact-nav:hover,
+    {
+        color:#2196F3;
+    }
