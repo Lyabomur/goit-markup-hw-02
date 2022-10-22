@@ -11,8 +11,8 @@
     
 body{
     background-color: var(--fon);
-    color:var(--main-color)
-    font-family: "roboto", "sans-serit";
+    color:var(--main-color);
+    font-family: 'Roboto', sans-serif;
 }
 
 /* колір основного тексту #212121; */
@@ -66,6 +66,7 @@ body{
     {
     color:var(--acent-color);
     }
+
 .contact-nav .link{
     font-weight: 500;
     font-size: 14px;
@@ -82,13 +83,13 @@ body{
 /* унікальний контент */
 
 .about{
-    background:var(--bgc-footer)
+    background:var(--bgc-footer);
 }
 
 .about-title{
     font-weight: 900;
     font-size: 44px;
-    line-height: calc(60 \ 44);
+    line-height: calc(60 / 44);
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
@@ -109,7 +110,7 @@ body{
 /* секція перваги*/
 
 .benefits-title{
-    font-family:"roboto";
+    font-family:inherit;
     font-weight: 700;
     font-size: 14px;
     line-height: calc(16 / 14);
@@ -119,8 +120,7 @@ body{
 }
 
 .benefits-text{
-    font-family: 'Roboto';
-    font-weight: 400;
+    font-family:inherit;
     font-size: 14px;
     line-height: calc(24 / 14);
     letter-spacing: 0.03em;
@@ -130,7 +130,7 @@ body{
 /* секція роботи */
 
 .work-title{
-    font-family: 'Roboto';
+    font-family:inherit;
     font-weight: 700;
     font-size: 36px;
     line-height: calc(42 / 36);
@@ -160,7 +160,7 @@ body{
     background-color: var(--fon-button);
 }
 .team-title{
-    font-family: 'Roboto';
+    font-family:inherit;
     font-weight: 700;
     font-size: 36px;
     line-height:calc(42 / 36);
@@ -170,7 +170,7 @@ body{
 }
 
 .team-name{
-    font-family: 'Roboto';
+    font-family:inherit;
     font-weight: 500;
     font-size: 16px;
     line-height: calc(19 / 16);
@@ -180,8 +180,7 @@ body{
 }
 
 .team-text{
-    font-family: 'Roboto';
-    font-weight: 400;
+    font-family: inherit;
     font-size: 16px;
     line-height: calc(19 / 16);
     text-align: center;
@@ -194,10 +193,11 @@ body{
 .button:focus{
     background-color:var(--acent-color);
     color: var(--fon);
+    cursor: pointer;
 }
 /* кнопки портфоліо */
 .button{
-    font-family: inherit;
+    font-family:'roboto';
     font-weight: 500;
     font-size: 16px;
     line-height: calc(26 / 16);
@@ -265,7 +265,6 @@ body{
 }
 
 .address-towen-link{
-    font-weight: 400;
     font-size: 14px;
     line-height: calc(24 / 14);
     letter-spacing: 0.03em;
@@ -273,7 +272,6 @@ body{
     text-decoration: none;
 }
 .address-mail-link {
-    font-weight: 400;
     font-size: 14px;
     line-height: calc(24 / 14);
     letter-spacing: 0.03em;
@@ -282,7 +280,6 @@ body{
 }
 
 .address-tel-link {
-    font-weight: 400;
     font-size: 14px;
     line-height: calc(24 / 14);
     letter-spacing: 0.03em;
