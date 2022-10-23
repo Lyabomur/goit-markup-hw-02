@@ -23,7 +23,7 @@ body{
 /* фон #f5f5f5; */
 /* фон фільтра #F5F4FA; */
 /* лінк rgba(255, 255, 255, 0.6); */
-/* футер бк #2F303A; */ ,
+/* футер бк #2F303A; */ 
 /* колір bgc кнопки замовити #2196F3 */
 
 .header{
@@ -103,7 +103,8 @@ body{
     line-height: 30px;
     letter-spacing: 0.06em;
     color: var(--bgc-white);
-    background-color: var(--bgc-button);   
+    background-color: var(--bgc-button); 
+    cursor: pointer;  
 
 }
 
@@ -203,6 +204,7 @@ body{
     letter-spacing: 0.03em;
     color: var(--main-color);
     background: var(--fon-button);
+    cursor: pointer;
 }
 
 /* Секція портфоліо*/
