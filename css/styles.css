@@ -7,10 +7,11 @@
     --bgc-footer:#2F303A;
     --link-color:rgba(255, 255, 255, 0.6);
     --bgc-white:#ffffff;
+    --bgc-button:#2196F3;
 }
     
 body{
-    background-color: var(--fon);
+    background-color: var(--bgc-white);
     color:var(--main-color);
     font-family: 'Roboto', sans-serif;
 }
@@ -18,11 +19,12 @@ body{
 /* колір основного тексту #212121; */
 /* додатковий колір тексту #757575; */
 /* колір лого і посилань #2196F3; #000000; */
-/* білий додатковий колір фону#ffffff; */
+/* білий колір фону#ffffff; */
 /* фон #f5f5f5; */
 /* фон фільтра #F5F4FA; */
 /* лінк rgba(255, 255, 255, 0.6); */
-/* футер бк #2F303A; */ 
+/* футер бк #2F303A; */ ,
+/* колір bgc кнопки замовити #2196F3 */
 
 .header{
     background-color: var(--bgc-white);
@@ -36,7 +38,6 @@ body{
     letter-spacing: 0.03em;
     color:var(--acent-color);
     text-decoration: none;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .logo-last-part{
@@ -82,11 +83,11 @@ body{
 
 /* унікальний контент */
 
-.about{
+.hero{
     background:var(--bgc-footer);
 }
 
-.about-title{
+.hero-title{
     font-weight: 900;
     font-size: 44px;
     line-height: calc(60 / 44);
@@ -96,21 +97,19 @@ body{
     color: var(--bgc-white)
 }
 
-.about-button{
+.hero-button{
     font-weight: 700;
     font-size: 16px;
     line-height: 30px;
-    display: flex;
-    align-items: center;
-    text-align: center;
     letter-spacing: 0.06em;
-    color: var(--bgc-white)
+    color: var(--bgc-white);
+    background-color: var(--bgc-button);   
+
 }
 
 /* секція перваги*/
 
 .benefits-title{
-    font-family:inherit;
     font-weight: 700;
     font-size: 14px;
     line-height: calc(16 / 14);
@@ -120,7 +119,6 @@ body{
 }
 
 .benefits-text{
-    font-family:inherit;
     font-size: 14px;
     line-height: calc(24 / 14);
     letter-spacing: 0.03em;
@@ -130,7 +128,6 @@ body{
 /* секція роботи */
 
 .work-title{
-    font-family:inherit;
     font-weight: 700;
     font-size: 36px;
     line-height: calc(42 / 36);
@@ -188,16 +185,17 @@ body{
     color: var(--second-text-color)
 }
 
-/* кнопки загальне */
-.button:hover,
-.button:focus{
+/* кнопки портфоліо */
+
+.filtr-button:hover,
+.filtr-button:focus{
     background-color:var(--acent-color);
     color: var(--fon);
-    cursor: pointer;
+ 
 }
-/* кнопки портфоліо */
-.button{
-    font-family:'roboto';
+
+.filtr-button{
+    font-family:inherit;
     font-weight: 500;
     font-size: 16px;
     line-height: calc(26 / 16);
@@ -226,10 +224,6 @@ body{
 /* Футер */
 
 .footer{
-    width: 1600px;
-    height: 252px;
-    left: 0px;
-    top: 1628px;
     background:var(--bgc-footer);
 }
 
