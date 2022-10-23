@@ -8,6 +8,7 @@
     --link-color:rgba(255, 255, 255, 0.6);
     --bgc-white:#ffffff;
     --bgc-button:#2196F3;
+    --bgc-button-hero:#188CE8;
 }
     
 body{
@@ -24,7 +25,8 @@ body{
 /* фон фільтра #F5F4FA; */
 /* лінк rgba(255, 255, 255, 0.6); */
 /* футер бк #2F303A; */ 
-/* колір bgc кнопки замовити #2196F3 */
+/* колір bgc кнопки в герою #2196F3 */
+/* ховер акцент кнопки в герою #188CE8; */
 
 .header{
     background-color: var(--bgc-white);
@@ -97,6 +99,10 @@ body{
     color: var(--bgc-white)
 }
 
+.hero-button:hover{
+    background-color: var(--bgc-button-hero);
+}
+
 .hero-button{
     font-weight: 700;
     font-size: 16px;
@@ -165,6 +171,10 @@ body{
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--main-color)
+}
+
+.team-img{
+    background-color: var(--bgc-white);
 }
 
 .team-name{
@@ -253,7 +263,6 @@ body{
 .address-towen-link:hover,
 .address-towen-link:focus,
 .address-mail-link:hover,
-.address-mail-link:visited,
 .address-mail-link:focus,
 .address-tel-link:hover,
 .address-tel-link:focus{
